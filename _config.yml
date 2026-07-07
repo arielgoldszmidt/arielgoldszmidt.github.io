@@ -1,0 +1,81 @@
+title: Ariel Goldszmidt
+email: arielgoldszmidt@uchicago.edu
+description: >-
+  Economics Ph.D. candidate at the University of Chicago.
+url: "https://arielgoldszmidt.github.io"
+baseurl: ""
+github_username: arielgoldszmidt
+minimal_mistakes_skin: dirt
+search: false
+atom_feed:
+  hide: true
+
+locale: "en-US"
+hide_title: true
+hide_follow_label: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/Chicago
+
+include:
+  - _pages
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Ariel Goldszmidt"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Economics Ph.D. candidate at the University of Chicago"
+  links:
+    - label: "arielgoldszmidt@uchicago.edu"
+      icon: "far fa-fw fa-envelope color-inherit"
+      url: "mailto:arielgoldszmidt@uchicago.edu"
+      new_tab: true
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin color-inherit"
+      url: "https://linkedin.com/in/arielgoldszmidt"
+      new_tab: true
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github color-inherit"
+      url: "https://github.com/arielgoldszmidt"
+      new_tab: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
