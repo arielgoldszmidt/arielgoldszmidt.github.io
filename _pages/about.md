@@ -9,4 +9,5 @@ author_profile: true
 alt_title: "About"
 ---
 
-I am a second-year Ph.D. candidate in economics at the University of Chicago. My research is in industrial organization and applied econometrics.
+I am a third-year Ph.D. candidate in economics at the University of Chicago.<br>
+My research is in industrial organization and applied econometrics.
