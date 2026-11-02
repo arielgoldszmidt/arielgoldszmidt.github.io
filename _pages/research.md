@@ -9,6 +9,10 @@ header:
 
 ## Working Papers
 
+- [**Inferring the Effects of Permanent Policies from Temporary Interventions**](https://www.dropbox.com/scl/fi/g3dws5vrtfb7fkxr5gl85/Lacouture-JMP.pdf?rlkey=vg7yuw9avp73yuisjgceo47sj&st=95tg3p3i&dl=0){:target="_blank" rel="noopener noreferrer"}
+	<br>with [Santiago Lacouture](https://www.santiagolacouture.com/){:target="_blank" rel="noopener noreferrer"}
+	<br>November, 2026
+
 - [**The Value of Time in the United States: Estimates from Nationwide Natural Field Experiments**](https://www.nber.org/papers/w28208){:target="_blank" rel="noopener noreferrer"}
 	<br>with John A. List, Robert D. Metcalfe, Ian Muir, V. Kerry Smith, and Jenny Wang
 	<br>December, 2020
